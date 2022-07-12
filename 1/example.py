@@ -1,7 +1,7 @@
+from warnings import simplefilter
 from pandas import DataFrame
 from sklearn.datasets import load_iris
 from sklearn.linear_model import LogisticRegression
-from warnings import simplefilter
 from sklearn.exceptions import ConvergenceWarning
 
 simplefilter('ignore', category=ConvergenceWarning)
