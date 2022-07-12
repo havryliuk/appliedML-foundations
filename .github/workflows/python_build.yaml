@@ -24,3 +24,8 @@ jobs:
               run: |
                 pip install pytest
                 pytest
+            - name: Pylint
+              run: |
+                pip install pylint
+                pylint *
+            

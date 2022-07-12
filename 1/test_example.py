@@ -1,4 +1,4 @@
-from example import *
+from example import generate_iris_predictions
 
 
 def test_simple_prediction_result():
